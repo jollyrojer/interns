@@ -1,4 +1,4 @@
 # Instruction
 - clone the repo
-- {code}bash go.sh{code}
+- ```bash go.sh```
 - go to the browser and write "localhost:8083"
