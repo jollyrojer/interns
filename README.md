@@ -1,5 +1,4 @@
 # Instruction
 - clone the repo
-- docker build -t "buildname" .
-- docker run -p 8083:8080 "buildname"
-- go to the browser and write "localhost:port"
+- bash go.sh
+- go to the browser and write "localhost:8083"
