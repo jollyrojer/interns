@@ -15,12 +15,16 @@ This image contains:
 
 * 8083 (Jenkins)
 
-Build
------
+Installation
+------------
 * Clone the repo, enter the folder
 
-Run
----
+Usage
+-----
+
+I created script with installation jenkins from official site and commands docker build and docker run.
+
+
   1. Run the command:
 ```
     sh g1o.sh
