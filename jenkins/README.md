@@ -1,13 +1,12 @@
 # Jenkins Docker image
 <img src="http://jenkins-ci.org/sites/default/files/jenkins_logo.png"/>
 
-This is a functional Jenkins server on Centos:7
+This is a functional Jenkins server in Centos:7
 
 Summary
 -------
 
 This image contains:
-* Centos:7
 * Jenkins
 * Java-1.8.0-openjdk
 
