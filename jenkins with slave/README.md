@@ -25,7 +25,7 @@ Installation
 Usage
 -----
 
-I created scripts with installation jenkins and nexus from official,  site and command docker-compose up.
+I created scripts with installation jenkins and nexus from official site, installation and launch jenkins-slave and command docker-compose up.
 
 
   1. Run the command:
