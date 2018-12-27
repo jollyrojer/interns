@@ -1,10 +1,28 @@
-# INSTRUCTION
-Build
+# Jenkins Docker image
+<img src="http://jenkins-ci.org/sites/default/files/jenkins_logo.png"/>
+
+This is a functional Jenkins server with jenkins-slave in Centos:7
+
+Summary
+-------
+
+This image contains:
+* Jenkins
+* Java-1.8.0-openjdk
+* Jenkins-slave
+
+### Exposed ports
+
+* 8083 (Jenkins and slave)
+
+Installation
+------------
+* Clone the repo, enter the folder
+
+Usage
 -----
 
-  1. Clone the repo, enter the folder.
-Run
----
+I created script with installation jenkins from official site and command docker-compose up.
 
 
   1. Run the command:
@@ -15,3 +33,5 @@ Run
 ```
     localhost:8083
 ```
+
+You can read more about JENKINS [here](https://jenkins.io).
