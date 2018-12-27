@@ -1,5 +1,5 @@
 # INSTRUCTION 
-In that repository you can found a 3 folders with:
+In that repository you can find a 3 folders with:
 ### JENKINS 
 * https://github.com/BasileoLuv/J-N-D/tree/Jenkins-slave-nexus/jenkins
 1 docker container with jenkins
