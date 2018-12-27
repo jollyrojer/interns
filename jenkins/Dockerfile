@@ -4,3 +4,6 @@ VOLUME /var/jenkins_home/
 RUN yum -y install java
 COPY jenkins.war .
 CMD ["/usr/bin/java", "-jar", "jenkins.war"] 
+
+
+	
