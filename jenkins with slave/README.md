@@ -1,4 +1,4 @@
-# Jenkins Docker with slave image
+# Jenkins with slave Docker image
 <img src="http://jenkins-ci.org/sites/default/files/jenkins_logo.png"/>
 
 This is a functional Jenkins server with jenkins-slave in Centos:7
