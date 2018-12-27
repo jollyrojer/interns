@@ -1,7 +1,19 @@
 # Jenkins Docker image
 <img src="http://jenkins-ci.org/sites/default/files/jenkins_logo.png"/>
 
-This is a functional Jenkins server without plugins
+This is a functional Jenkins server based on Centos:7
+
+Summary
+-------
+
+This image contains:
+* Centos:7
+* Jenkins
+* Java-1.8.0-openjdk
+
+### Exposed ports
+
+* 8083 (Jenkins)
 
 Build
 -----
