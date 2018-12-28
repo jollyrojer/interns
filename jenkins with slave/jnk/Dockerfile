@@ -1,6 +1,6 @@
 FROM centos:7
 
-# Working directory 
+# Working directory after launching the containers
 ENV JENKINS_HOME=/var/jenkins_home/ 
 RUN chmod 777 /var
 COPY Home /var/jenkins_home/  
