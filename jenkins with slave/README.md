@@ -10,11 +10,19 @@ Summary
 This image contains:
 * Jenkins
 * Java-1.8.0-openjdk
-* Jenkins-slave
+
+### About Jenkins Slave
+
+### A Slave is a Java executable that runs on a remote machine. Following are the characteristics of Jenkins Slaves:
+
+* It hears requests from the Jenkins Master instance.
+* Slaves can run on a variety of operating systems.
+* The job of a Slave is to do as they are told to, which involves executing build jobs dispatched by the Master.
+* You can configure a project to always run on a particular Slave machine, or a particular type of Slave machine, or simply let Jenkins pick the next available Slave.
 
 ### Exposed ports
 
-* 8083 (Jenkins and slave)
+* 8083 (Jenkins with slave)
 
 Installation
 ------------
@@ -31,7 +39,7 @@ I created scripts with installation jenkins from official site, installation and
     sh g1o.sh
 ```
   2. Go to the browser and write 
-* jenkins:
+* jenkins and jenkins-slave containers running on:
 ```
     localhost:8083
 ```
