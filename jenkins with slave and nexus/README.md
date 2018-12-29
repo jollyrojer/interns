@@ -1,4 +1,4 @@
-# Jenkins with slave and nexus server Docker image
+# In this project there are 3 containers with Jenkins, Jenkins-slave and Nexus server
 <img src="https://cdn-images-1.medium.com/max/1600/1*DpUVWTopUJr6ZvmPiapLCw.png"/>
 
 
