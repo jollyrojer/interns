@@ -1,6 +1,5 @@
-FROM sonatype/nexus3
-# Working directory after launching the containers
-WORKDIR /nxs
-VOLUME nexus-data:/nexus-data
-COPY nexus.tgz .
+FROM sonatype/nexus3:3.8.0
+COPY pypi.json /tmp/pypi.json
+COPY pypi-init.sh /tmp/pypi-init.sh
 EXPOSE 8089
+EXPOSE 8081
