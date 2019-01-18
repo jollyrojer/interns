@@ -44,10 +44,7 @@ or
 ```
  
   3. INSTALL NEXUS PYPI REPOSITORY :
-  ```
-    bash nxs/pypi-init.sh 
-```
-or 
+
 ```
     cd nxs
     
