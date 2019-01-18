@@ -30,9 +30,28 @@ I created scripts with installation jenkins and nexus from official site, instal
 
   1. Run the command:
 ```
-    sh g1o.sh
+    bash g1o.sh
 ```
-  2. Go to the browser and write 
+  2. TO GET JENKINS PLUGINS AND TOOLS:
+  ```
+    bash jnk/plugins.sh 
+```
+or 
+```
+    cd jnk
+    
+    bash plugins.sh
+```
+ 
+  3. INSTALL NEXUS PYPI REPOSITORY :
+
+```
+    cd nxs
+    
+    bash pypi-init.sh
+```
+  
+  4. Go to the browser and write 
 * jenkins:
 ```
     localhost:8083
@@ -41,6 +60,7 @@ I created scripts with installation jenkins and nexus from official site, instal
 ```
     localhost:8089
 ```
+
 
 You can read more about JENKINS [here](https://jenkins.io).
 NEXUS [here](https://www.sonatype.com/nexus-repository-sonatype).
